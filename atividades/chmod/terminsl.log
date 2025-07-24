@@ -1,0 +1,14 @@
+root@83ae738a09e6:/home/atividades/chmod# cd /home/atividades/chmod
+root@83ae738a09e6:/home/atividades/chmod# chmod +x atividade_chmod.sh
+root@83ae738a09e6:/home/atividades/chmod# ls
+README.md  atividade_chmod.sh
+root@83ae738a09e6:/home/atividades/chmod# ./atividade_chomd.sh
+bash: ./atividade_chomd.sh: No such file or directory
+root@83ae738a09e6:/home/atividades/chmod# ./atividade_chmod.sh 
+Arquivo meuarquivo.txt criado.
+Usuário usuariochmod criado.
+Dono do arquivo meuarquivo.txt alterado para usuariochmod.
+Pasta minhapasta criada.
+Arquivo minhapasta/arquivo2.txt criado.
+Permissões do arquivo minhapasta/arquivo2.txt alteradas para 754 (dono: rwx, grupo: r-x, outros: r--).
+root@83ae738a09e6:/home/atividades/chmod# 
