@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  ubuntu-tty:
+    build: .
+    container_name: ubuntu-tty
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+    volumes:
+      - ./atividades:/home/atividades
