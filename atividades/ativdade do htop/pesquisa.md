@@ -1,13 +1,13 @@
 # Pesquisa: Sinais no htop
 
+![htop](image.png)
+
 ## proposta da pesquisa
 pesquisar a funcionalidade de 15 funções do htop. 
 
 
-funções escolhidas:
 
-![atividades/"atividade do htop"/image copy.png](sinais)
-
+### funções escolhidas:
 
 | Nº | Sinal      | Função                                                                 |
 |----|------------|------------------------------------------------------------------------|
