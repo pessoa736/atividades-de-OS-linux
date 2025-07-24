@@ -1,0 +1,51 @@
+root@83ae738a09e6:/home/atividades# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G   13G   18G  43% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/loop4       32G   13G   18G  43% /home/atividades
+tmpfs           3.9G     0  3.9G   0% /proc/acpi
+tmpfs           3.9G     0  3.9G   0% /proc/scsi
+tmpfs           3.9G     0  3.9G   0% /sys/firmware
+root@83ae738a09e6:/home/atividades# ^C
+root@83ae738a09e6:/home/atividades# ls
+'ativdade do htop'  'atividade de compre'$'\303\247\303\243''o'
+root@83ae738a09e6:/home/atividades# cd atividade\ de\ compreção/
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o# ls
+Documents
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o# cd Documents/
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# ls
+relatorio.txt
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# tar -czvf relatorio.tar.gz relatorio.txt 
+relatorio.txt
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# ls
+relatorio.tar.gz  relatorio.txt
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# tar -tvf relatorio.tar.gz
+-rw-rw-rw- ubuntu/ubuntu   334 2025-07-24 13:34 relatorio.txt
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# tar -xzvf rel
+atorio.tar.gz relatorio.txt 
+relatorio.txt
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# tar -xvf rela
+torio.tar.gz
+relatorio.txt
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# diff relatorio.tar.gz  relatorio.txt
+Binary files relatorio.tar.gz and relatorio.txt differ
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# du -b  relato
+rio.tar.gz  relatorio.txt
+243     relatorio.tar.gz
+334     relatorio.txt
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# du -i  relato
+rio.tar.gz  relatorio.txt
+du: invalid option -- 'i'
+Try 'du --help' for more information.
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# df -i  relato
+rio.tar.gz  relatorio.txt
+Filesystem      Inodes  IUsed   IFree IUse% Mounted on
+/dev/loop4     2097152 285423 1811729   14% /home/atividades
+/dev/loop4     2097152 285423 1811729   14% /home/atividades
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# df  relatorio
+.tar.gz  relatorio.txt
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/loop4      32847680 13192712  17960872  43% /home/atividades
+/dev/loop4      32847680 13192712  17960872  43% /home/atividades
+root@83ae738a09e6:/home/atividades/atividade de compreM-CM-'M-CM-#o/Documents# 
